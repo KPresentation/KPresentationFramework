@@ -2,13 +2,13 @@ KPresentationFramework
 ======================
 
 A framework for the creation of gesture-based applications for big-data presentation and navigation.
-Gesture recognition is made by the KinectRecognizer component, using the Microsoft Kinect sensor and the [GestIT] (https://github.com/GestIT/GestIT) library.
+Gesture recognition is made by the KRecognizer component, using the Microsoft Kinect sensor and the [GestIT] (https://github.com/GestIT/GestIT) library.
 The framework is based on the WPF architecture.
 
 Recognized Gestures
 ===================
 
-KinectRecognizer is able to recognize the following gestures:
+KRecognizer is able to recognize the following gestures:
 
 - **Right Hand Move**: raised when the user moves the right hand. The recognizer translates the spatial coordinates of the hands in   screen coordinates.
 - **Navigate Back**: raised when the user aligns horizontally its hands and approaches them.  
