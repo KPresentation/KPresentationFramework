@@ -19,3 +19,10 @@ KinectRecognizer is able to recognize the following gestures:
 
 Framework Classes
 =================
+
+
+
+- **KPresenter**
+- **KFolder**
+- **KItem**
+- **KPage**
