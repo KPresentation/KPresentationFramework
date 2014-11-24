@@ -10,11 +10,9 @@ Recognized Gestures
 
 KinectRecognizer is able to recognize the following gestures:
 
-- RightHandMove: raised when the user moves the right hand. The recognizer translates the spatial coordinates of the hands in   screen coordinates.
-- PinchAndZoom: raised when a Pinch and Zoom gesture is beginning.
-- NavigateBack:
-- RightHandGrip: raised when the user closes the right hand.
-- RightHandGripRelease: raised when the user opens the right hand.
-- ImageGrabStart: raised when the user closes the two hands.
-- SlideUp: raised when a Slide Up gesture is recognized.
-- SlideDown: raised when a Slide Down gesture is recognized.
+- Right Hand Move: raised when the user moves the right hand. The recognizer translates the spatial coordinates of the hands in   screen coordinates.
+- Navigate Back: raised when the user aligns horizontally its hands and approaches them.  
+- Right Hand Drag&Drop: raised when the user uses the right hand to drag&drop an object.
+- Image Grab: raised when the user uses the two hands to grab and manipulate the shown content.
+- Slide Up: raised when the user fastly moves up the right hand carrying the cursor atop the screen 
+- Slide Down: raised when a Slide Down gesture is recognized.
