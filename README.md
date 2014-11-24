@@ -10,8 +10,8 @@ Recognized Gestures
 
 KinectRecognizer is able to recognize the following gestures:
 
-- Right Hand Move: raised when the user moves the right hand. The recognizer translates the spatial coordinates of the hands in   screen coordinates.
-- Navigate Back: raised when the user aligns horizontally its hands and approaches them.  
+- _Right Hand Move_: raised when the user moves the right hand. The recognizer translates the spatial coordinates of the hands in   screen coordinates.
+- *Navigate Back*: raised when the user aligns horizontally its hands and approaches them.  
 - Right Hand Drag&Drop: raised when the user uses the right hand to drag&drop an object.
 - Image Grab: raised when the user uses the two hands to grab and manipulate the shown content.
 - Slide Up: raised when the user fastly moves up the right hand carrying the cursor above the screen.
