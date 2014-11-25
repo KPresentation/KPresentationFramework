@@ -1,0 +1,14 @@
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\ProjectX.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\ProjectX.pdb
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\FSharp.Core.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\GestIT.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\Microsoft.Kinect.Toolkit.BackgroundRemoval.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\Microsoft.Kinect.Toolkit.Fusion.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\FSharp.Core.xml
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\bin\Debug\it\FSharp.Core.resources.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\obj\Debug\ProjectX.csprojResolveAssemblyReference.cache
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\obj\Debug\ProjectX.dll
+C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\ProjectX\obj\Debug\ProjectX.pdb
