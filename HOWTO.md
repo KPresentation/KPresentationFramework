@@ -1,5 +1,5 @@
-How to add a KPresenter control
-===============================
+How to use KPresentationFramework
+=================================
 
 First of all, in order to create a new application, it's strictly necessary to import the KRecognizer and KPresentationFramework assemblies.
 
