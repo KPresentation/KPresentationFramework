@@ -33,7 +33,6 @@ How To
 First of all, in order to create a new application, it's strictly necessary to import KRecognizer and KPresentationFramework.
   <fnf:KPresenter>
     <fnf:KPresenter.FolderTree>
-      ...
     </fnf:KPresenter.FolderTree>
   </fnf:KPresenter>
 
