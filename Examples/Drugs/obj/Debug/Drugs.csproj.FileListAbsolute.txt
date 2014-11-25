@@ -24,3 +24,6 @@ C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\Drugs\obj\Debug\
 C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\Drugs\obj\Debug\Drugs.pdb
 C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\Drugs\bin\Debug\KinectInteraction180_64.dll
 C:\Users\Daniele\Documents\Visual Studio 2012\Projects\ProjectX\Drugs\bin\Debug\KinectInteraction180_32.dll
+C:\Users\Vittorio\Documents\GitHub\KPresentationFramework\Examples\Drugs\bin\Debug\Drugs.exe.config
+C:\Users\Vittorio\Documents\GitHub\KPresentationFramework\Examples\Drugs\obj\Debug\Drugs.exe
+C:\Users\Vittorio\Documents\GitHub\KPresentationFramework\Examples\Drugs\obj\Debug\Drugs.pdb

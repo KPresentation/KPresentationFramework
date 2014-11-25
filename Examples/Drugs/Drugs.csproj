@@ -105,11 +105,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KPresentationFramework\KPresentationFramework.csproj">
+    <ProjectReference Include="..\..\Code\KPresentationFramework\KPresentationFramework.csproj">
       <Project>{9ff83d41-76ef-41c0-9ca0-f55bb4c1e56f}</Project>
       <Name>KPresentationFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\KRecognizer\KRecognizer.csproj">
+    <ProjectReference Include="..\..\Code\KRecognizer\KRecognizer.csproj">
       <Project>{69c1d5b9-f248-45c0-b3e0-cde66bb81693}</Project>
       <Name>KRecognizer</Name>
     </ProjectReference>

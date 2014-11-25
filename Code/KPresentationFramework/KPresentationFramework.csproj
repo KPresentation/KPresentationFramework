@@ -105,7 +105,7 @@
     <Resource Include="Cursor\handclose.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProjectX\KRecognizer.csproj">
+    <ProjectReference Include="..\KRecognizer\KRecognizer.csproj">
       <Project>{69c1d5b9-f248-45c0-b3e0-cde66bb81693}</Project>
       <Name>KRecognizer</Name>
     </ProjectReference>
