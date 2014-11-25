@@ -37,11 +37,10 @@ First of all, in order to create a new application, it's strictly necessary to i
 In order to create a KPresenter control, you must import the namespace KPresentationFramework.
 After that, you can add the KPresenter control as a normal WPF Control. 
 ```xaml
-<Window x:Class="Drugs.MainWindow"
+<Window x:Class="MyMainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
-    Title="MainWindow" Height="800" Width="1200" WindowState="Maximized" WindowStyle="None">
+    xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework">
 
     <kpf:KPresenter>
         <kpf:KPresenter.FolderTree>
@@ -59,7 +58,7 @@ The attribute BakcgroundURI can be used to set an image to show as a background 
 The attribute VisualPreview can be used to specify the appearance of the folder when is closed. It is a WPF's UIElement.
 The attribute FolderContent allows to specify the data subtree rooted in the folder.
 ```xaml
-<kpf:KFolder BackgroundURI="Img/axis.png" PercentageX="50" PercentageY="50">
+<kpf:KFolder BackgroundURI="Img/myBackground.png" PercentageX="50" PercentageY="50">
     <kpf:KFolder.VisualPreview>
         <!-- UIElement -->
     </kpf:KFolder.VisualPreview>
@@ -70,24 +69,44 @@ The attribute FolderContent allows to specify the data subtree rooted in the fol
 ```
 The attribute ContentURI must be used to attach a KPage to the KItem.
 ```xaml
-<kpf:KItem PercentageX="20" PercentageY="65" ContentURI="Pages/web.xaml?mol=lsd">
+<kpf:KItem PercentageX="20" PercentageY="65" ContentURI="MyKPage.xaml">
     <!-- UIElement that specifies the visual preview -->
 </kpf:KItem>
 ```
 
 **Define a KPage**
 
+In order to handle the manipulation events, you can add the handler function.
+
 ```xaml
-<kpf:KPage x:Class="Drugs.Pages.web"
+<kpf:KPage x:Class="MyKPageClass"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
-      <!-- How to handle the manipulation events -->
-      ImageGrabStart="web_ImageGrabStart"
-      ImageGrabContinue="web_ImageGrabContinue"
-      ImageGrabTerminate="web_ImageGrabTerminate">
+      ImageGrabStart="MyKPage_ImageGrabStart"
+      ImageGrabContinue="MyKPage_ImageGrabContinue"
+      ImageGrabTerminate="MyKPage_ImageGrabTerminate">
    <!-- As usual with a WPF page -->
 </kpf:KPage>
 ```
+
+Code behind:
+```c#
+void MyKPage_ImageGrabStart(object sender, EventArgs e)
+{
+    //do something
+}
+
+void MyKPage_ImageGrabContinue(object sender, KRecognizerNS.ImageGrabEventArgs e)
+{
+   //do something
+}
+
+void MyKPage_ImageGrabTerminate(object sender, EventArgs e)
+{
+    //do something
+}
+```
+
