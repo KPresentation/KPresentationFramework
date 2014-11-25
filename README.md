@@ -110,3 +110,8 @@ void MyKPage_ImageGrabTerminate(object sender, EventArgs e)
 }
 ```
 
+When a KPage is shown in the workspace, it is loaded with the parameter w set to 1.
+```
+MyKPage.xaml?w=1
+```
+
