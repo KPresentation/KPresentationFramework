@@ -18,7 +18,7 @@ Name "drugs.exe" and valure "11000"
 ```
 This is necessary to permit the browser emulation of the control.
 
-For having a better experience, you should enable the GPU Rendering. In order to do this, in In 
+For having a better experience, you should enable the GPU Rendering. In order to do this, in
 ```
 Computer -> HKEY_LOCAL_MACHINE -> SOFTWARE -> Wow6432Node -> Microsoft -> Internet Explorer -> Main -> FeatureControl -> FEATURE_GPU_RENDERING 
 ```
