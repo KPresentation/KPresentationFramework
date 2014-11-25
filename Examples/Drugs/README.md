@@ -14,7 +14,7 @@ you need to add a new DWORD value with
 ```
 Name "drugs.vshost.exe" and value "11000"
 ```
-and a value with 
+and a new DWORD value with 
 ```
 Name "drugs.exe" and valure "11000"
 ```
@@ -28,7 +28,7 @@ add a new DWORD value with
 ```
 Name "drugs.vshost.exe" and value "1" 
 ```
-and a value with 
+and a new DWORD value with 
 ```
 Name "drugs.exe" and valure "1".
 ```
