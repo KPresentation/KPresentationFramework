@@ -37,31 +37,43 @@ First of all, in order to create a new application, it's strictly necessary to i
 In order to create a KPresenter control, you must import the namespace KPresentationFramework.
 After that, you can add the KPresenter control as a normal WPF Control. 
 ```xaml
-    <Window x:Class="Drugs.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
-        Title="MainWindow" Height="800" Width="1200" WindowState="Maximized" WindowStyle="None">
+<Window x:Class="Drugs.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
+    Title="MainWindow" Height="800" Width="1200" WindowState="Maximized" WindowStyle="None">
 
-        <kpf:KPresenter>
-            <kpf:KPresenter.FolderTree>
-                <!-- Here you must specify the data tree -->
-            </kpf:KPresenter.FolderTree>
-        </kpf:KPresenter>
-    </Window>
+    <kpf:KPresenter>
+        <kpf:KPresenter.FolderTree>
+            <!-- Here you must specify the data tree -->
+        </kpf:KPresenter.FolderTree>
+    </kpf:KPresenter>
+</Window>
 ```
 
 **Specify the data tree**
 
 In order to specify the data tree, you must use KFolder and KItem.
-
+The attributes PercentageX and PercentageY are either in KFolder and in KItem and they allow to specify the position in the screen of the element.
+The attribute BakcgroundURI can be used to set an image to show as a background to the folder's content.
+The attribute VisualPreview can be used to specify the appearance of the folder when is closed. It is a WPF's UIElement.
+The attribute FolderContent allows to specify the data subtree rooted in the folder.
 ```xaml
-    <kpf:KFolder BackgroundURI="Img/axis.png" PercentageX="50" PercentageY="50">
-        <kpf:KFolder.VisualPreview>
-            ...
-        </kpf:KFolder.VisualPreview>
-        <kpf:KFolder.ContentFolder>
-            ...
-        </kpf:KFolder.ContentFolder>
-    </kpf:KFolder>
+<kpf:KFolder BackgroundURI="Img/axis.png" PercentageX="50" PercentageY="50">
+    <kpf:KFolder.VisualPreview>
+        <!-- UIElement -->
+    </kpf:KFolder.VisualPreview>
+    <kpf:KFolder.FolderContent>
+        <!-- Another data tree -->
+    </kpf:KFolder.FolderContent>
+</kpf:KFolder>
 ```
+The attribute ContentURI must be used to attach a KPage to the KItem.
+```xaml
+<kpf:KItem PercentageX="20" PercentageY="65" ContentURI="Pages/web.xaml?mol=lsd">
+    <!-- UIElement that specifies the visual preview -->
+</kpf:KItem>
+```
+
+**Define a KPage**
+
