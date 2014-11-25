@@ -3,9 +3,7 @@ DRUGS EXAMPLE
 
 For executing this example, you need an internet connection.
 
-Moreover you need to update the system register using regedit.exe:
-
-In 
+Moreover you need to update the system register using regedit.exe: in 
 
 ```
 Computer -> HKEY_LOCAL_MACHINE -> SOFTWARE -> Wow6432Node -> Microsoft -> Internet Explorer -> Main -> FeatureControl -> FEATURE_BROWSER_EMULATION
