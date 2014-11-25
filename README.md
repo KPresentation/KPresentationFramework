@@ -4,6 +4,7 @@ KPresentationFramework
 A framework for the creation of gesture-based applications for big-data presentation and navigation.
 Gesture recognition is made by the KRecognizer component, using the Microsoft Kinect sensor and the [GestIT] (https://github.com/GestIT/GestIT) library.
 The framework is based on the WPF architecture.
+
 Click here to read [how to use KPresentationFramework] (https://github.com/KPresentation/KPresentationFramework/blob/master/HOWTO.md) .
 
 Recognized Gestures
