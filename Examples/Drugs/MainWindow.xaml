@@ -1,0 +1,116 @@
+﻿<!--Author: Daniele Castellana -->
+<Window x:Class="Drugs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
+        Title="MainWindow" Height="800" Width="1200" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+
+        <kpf:KPresenter>
+            <kpf:KPresenter.FolderTree>
+                <kpf:KFolder BackgroundURI="Img/axis.png" PercentageX="50" PercentageY="50">
+                    <kpf:KFolder.VisualPreview>
+                        <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                            <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="0.8*"/>
+                                        <RowDefinition Height="0.2*"/>
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Source="Img/drugs.png" Stretch="Uniform"/>
+                                    <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">DRUGS</TextBlock>
+                                </Grid>
+                            </Border>
+                        </Border>
+                    </kpf:KFolder.VisualPreview>
+                    <kpf:KFolder.FolderContent>
+                        <kpf:KItem PercentageX="20" PercentageY="65" ContentURI="Pages/web.xaml?mol=lsd">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/lsd.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">LSD</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                        <kpf:KItem PercentageX="52" PercentageY="59" ContentURI="Pages/web.xaml?mol=thc">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/thc.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">THC</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                        <kpf:KItem PercentageX="66" PercentageY="55" ContentURI="Pages/web.xaml?mol=ethanol">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/ethanol.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">ETHANOL</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                        <kpf:KItem PercentageX="40" PercentageY="33" ContentURI="Pages/web.xaml?mol=ketamine">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/ketamine.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">KETAMINE</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                        <kpf:KItem PercentageX="70" PercentageY="30" ContentURI="Pages/web.xaml?mol=cocaine">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/cocaine.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">COCAINE</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                        <kpf:KItem PercentageX="88" PercentageY="10" ContentURI="Pages/web.xaml?mol=heroin">
+                            <Border BorderThickness="10" BorderBrush="Black" CornerRadius="15">
+                                <Border Margin="5" Background="Black" CornerRadius="15" Padding="10">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.8*"/>
+                                            <RowDefinition Height="0.2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Source="Img/heroin.png" Stretch="Uniform"/>
+                                        <TextBlock Grid.Row="1" Foreground="White" TextAlignment="Center" FontWeight="Bold">HEROIN</TextBlock>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </kpf:KItem>
+                    </kpf:KFolder.FolderContent>
+                </kpf:KFolder>
+            </kpf:KPresenter.FolderTree>
+        </kpf:KPresenter>
+    </Grid>
+</Window>
