@@ -32,7 +32,7 @@ How To
 
 First of all, in order to create a new application, it's strictly necessary to import the KRecognizer and KPresentationFramework assemblies.
 
-***Create KPresenter control***
+**Create KPresenter control**
 
 In order to create a KPresenter control, you must import the namespace KPresentationFramework.
 After that, you can add the KPresenter control as a normal WPF Control. 
@@ -45,9 +45,23 @@ After that, you can add the KPresenter control as a normal WPF Control.
 
         <kpf:KPresenter>
             <kpf:KPresenter.FolderTree>
-                ...
+                <!-- Here you must specify the data tree -->
             </kpf:KPresenter.FolderTree>
         </kpf:KPresenter>
     </Window>
 ```
 
+**Specify the data tree**
+
+In order to specify the data tree, you must use KFolder and KItem.
+
+```xaml
+    <kpf:KFolder BackgroundURI="Img/axis.png" PercentageX="50" PercentageY="50">
+        <kpf:KFolder.VisualPreview>
+            ...
+        </kpf:KFolder.VisualPreview>
+        <kpf:KFolder.ContentFolder>
+            ...
+        </kpf:KFolder.ContentFolder>
+    </kpf:KFolder>
+```
