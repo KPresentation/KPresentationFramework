@@ -30,12 +30,24 @@ The following classes are the meaningful ones in the framework, because they are
 How To
 ======
 
-First of all, in order to create a new application, it's strictly necessary to import KRecognizer and KPresentationFramework.
-```
-    <fnf:KPresenter>
-        <fnf:KPresenter.FolderTree>
-            ...
-        </fnf:KPresenter.FolderTree>
-    </fnf:KPresenter>
+First of all, in order to create a new application, it's strictly necessary to import the KRecognizer and KPresentationFramework assemblies.
+
+***Create KPresenter control***
+
+In order to create a KPresenter control, you must import the namespace KPresentationFramework.
+After that, you can add the KPresenter control as a normal WPF Control. 
+```xaml
+    <Window x:Class="Drugs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
+        Title="MainWindow" Height="800" Width="1200" WindowState="Maximized" WindowStyle="None">
+
+        <kpf:KPresenter>
+            <kpf:KPresenter.FolderTree>
+                ...
+            </kpf:KPresenter.FolderTree>
+        </kpf:KPresenter>
+    </Window>
 ```
 
