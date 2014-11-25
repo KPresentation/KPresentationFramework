@@ -29,6 +29,6 @@ The following classes are the meaningful ones in the framework, because they are
 - **KItem**: this class represents a link to the data that the user can manipulate. A KItem is defined by its appearance when is closed and a link to a KPage, which contains the data that are shown when the user opens the KItem.
 - **KPage**: this class represents a container of the data that must be shown. It is editable like a WPF page and, what is more, allows to handle the events for the manipulation raised from KRecognizer.
 
-The framework, moreover, offers the possibility to accumulate several KItem and show all the relative Kpages together, introducing a concept of **workspace**.
+The framework, moreover, offers the possibility to accumulate several KItem and show all the relative KPages together, introducing a concept of **workspace**.
 When the user grabs a KItem, a functional area appears in the lower part of the screen, and permits to select or deselect the KItem.
 Opening the workspace, all the KPages attached to the selected KItem are shown together.
