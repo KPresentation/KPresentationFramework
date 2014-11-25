@@ -77,3 +77,17 @@ The attribute ContentURI must be used to attach a KPage to the KItem.
 
 **Define a KPage**
 
+```xaml
+<kpf:KPage x:Class="Drugs.Pages.web"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:kpf="clr-namespace:KPresentationFramework;assembly=KPresentationFramework"
+      <!-- How to handle the manipulation events -->
+      ImageGrabStart="web_ImageGrabStart"
+      ImageGrabContinue="web_ImageGrabContinue"
+      ImageGrabTerminate="web_ImageGrabTerminate">
+   <!-- As usual with a WPF page -->
+</kpf:KPage>
+```
