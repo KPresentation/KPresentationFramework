@@ -1,7 +1,7 @@
 DRUGS EXAMPLE
 =================
 
-For executing this example, you need an internet connection.
+For executing this example, you need an **internet connection**.
 
 Moreover you need to update the system register using regedit.exe: in 
 
