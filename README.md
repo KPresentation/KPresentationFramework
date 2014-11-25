@@ -20,9 +20,20 @@ KRecognizer is able to recognize the following gestures:
 Framework Classes
 =================
 
-The following classes are the meaningful ones in the framework, because they are strictly necessary to create a new application on this framework.
+The following classes are the meaningful ones in the framework, because they are strictly necessary to create new applications.
 
-- **KPresenter**: this class is the main control of the framework. Creating a new KPresenter cotrol, the user can access to all features of the framework. The navigation tree must be specified inside it.
+- **KPresenter**: this class is the main control of the framework. Creating a new KPresenter cotrol, the user can access to all features offers. All datas must be specified inside it, as a tree.
 - **KFolder**: this class represents a folder. A KFolder is defined by its appearance when is closed and its content, which is a set of KFolders and KItems.
 - **KItem**: this class represents a link to the data that the user can manipulate. A KItem is defined by its appearance when is closed and a link to a KPage, which contains the data that are shown when the user opens the KItem.
-- **KPage**: this class represents a container of the data that must be shown. It is editable like a WPF page plus the events for the manipulation raised from KRecognizer.
+- **KPage**: this class represents a container of the data that must be shown. It is editable like a WPF page and, what is more, allows to handle the events for the manipulation raised from KRecognizer.
+
+How To
+======
+
+First of all, in order to create a new application, it's strictly necessary to import KRecognizer and KPresentationFramework.
+  <fnf:KPresenter>
+    <fnf:KPresenter.FolderTree>
+      ...
+    </fnf:KPresenter.FolderTree>
+  </fnf:KPresenter>
+
