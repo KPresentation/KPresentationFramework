@@ -30,4 +30,4 @@ and a new DWORD value with
 Name "drugs.exe" and valure "1".
 ```
 
-We hope you'll enjoy it.
+That's all. Enjoy it!
