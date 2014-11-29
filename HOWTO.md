@@ -25,7 +25,7 @@ After that, you can add the KPresenter control as a normal WPF Control.
 
 In order to specify the data tree, you must use KFolder and KItem.
 The attributes PercentageX and PercentageY are either in KFolder and in KItem and they allow to specify the position in the screen of the element.
-The attribute BakcgroundURI can be used to set an image to show as a background to the folder's content.
+The attribute BakcgroundURI can be used to set an image that will be shown behind the folder's content.
 The attribute VisualPreview can be used to specify the appearance of the folder when is closed. It is a WPF's UIElement.
 The attribute FolderContent allows to specify the data subtree rooted in the folder.
 ```xaml
