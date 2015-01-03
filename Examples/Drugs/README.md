@@ -17,7 +17,7 @@ and a new DWORD value with
 Name "drugs.exe" and valure "11000"
 ```
 
-For having a better experience, you should **enable the GPU Rendering**. In order to do this, in
+To improve your experience, you should **enable the GPU Rendering**. In order to do this, in
 ```
 Computer -> HKEY_LOCAL_MACHINE -> SOFTWARE -> Wow6432Node -> Microsoft -> Internet Explorer -> Main -> FeatureControl -> FEATURE_GPU_RENDERING 
 ```
